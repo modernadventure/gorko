@@ -34,6 +34,11 @@ $gorko-colors: (
 /// to enabling/disabling pre-built components/utilities.
 ///
 $gorko-config: (
+  'settings': (
+    'debug': 'true',
+    'env': 'dev',
+    'healthcheck': 'false',
+  ),
   'namespace': (
     'prefix': '',
     'classes': true,
