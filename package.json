@@ -7,17 +7,19 @@
     "sass": "^1.69.7"
   },
   "scripts": {
-    "test": "npx sass gorko.scss tmp/gorko.css && npx sass test/test.scss tmp/test.css"
+    "test": "sass test/test.scss:test/test.css",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.1.1"
   },
+  "sass": "gorko.scss",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hankchizljaw/gorko.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "hankchizljaw",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hankchizljaw/gorko/issues"
