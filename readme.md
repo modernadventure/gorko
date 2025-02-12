@@ -144,13 +144,13 @@ $gorko-colors: (
 );
 
 $light-colors: (
-  'text': map-get($gorko-colors, 'dark'),
-  'bg': map-get($gorko-colors, 'light')
+  'text': map.get($gorko-colors, 'dark'),
+  'bg': map.get($gorko-colors, 'light')
 ) !default;
 
 $dark-colors: (
-  'text': map-get($gorko-colors, 'light'),
-  'bg': map-get($gorko-colors, 'dark')
+  'text': map.get($gorko-colors, 'light'),
+  'bg': map.get($gorko-colors, 'dark')
 ) !default;
 
 // ============================================
@@ -496,13 +496,13 @@ $gorko-colors: (
 );
 
 $light-colors: (
-  'text': map-get($gorko-colors, 'dark'),
-  'bg': map-get($gorko-colors, 'light')
+  'text': map.get($gorko-colors, 'dark'),
+  'bg': map.get($gorko-colors, 'light')
 );
 
 $dark-colors: (
-  'text': map-get($gorko-colors, 'light'),
-  'bg': map-get($gorko-colors, 'dark')
+  'text': map.get($gorko-colors, 'light'),
+  'bg': map.get($gorko-colors, 'dark')
 );
 ```
 
